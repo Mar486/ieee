@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+}
+
+
+.bar{
+    width: 100%;
+    height:40px;
+    background-color: #fc031c;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+
+.mario{
+    color:white;
+    border:  5px solid white ;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 0;
+    display: inline;
+    
+}
+
+.banner{
+    width:100%;
+    height:600px;
+    position: center;
+    display: block;
+    position: absolute;
+    z-index: -100;
+    
+   
+}
+
+
+.marioclub{
+    
+   background-color: #f2ca2c;
+   height: 120px;
+    width:455px;
+   padding:80px 120px 80px 80px ;
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: 2px;
+    position: relative;
+    z-index: 100;
+    margin: 170px 0 150px 0;
+   
+}
+
+.sp{
+    font-size: 6rem;
+}
+
+
+
+.barr{
+    
+    padding:20px 0;
+    background-color: #f0f2f2;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: -100;
+}
+    
+
+
+.barr a{
+    color:black;
+    font-weight:700px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+     
+    
+}   
+.active a{
+    color:#fc031c;
+}
+
+    
+.container{
+    
+   margin: 7% 20% ;  
+   
+    
+} 
+
+
+
+.paragraph{
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.special {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.me {
+    color:#fc031c;
+    
+}
+
+
+.imagee{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    margin: 10% 10%;
+}
+
+.im{
+    width:300px;
+    height:200px;
+    margin:20px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #f0f2f2;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin: 0;
+    color: #5c5b55;
+}
+
+    
+.join{
+    font-weight: 1000px;
+    font-size: 55px;
+    margin: 0;
+    
+}
+.lorem{
+    margin-bottom: 30px;
+}
+
+.inp{
+    padding: 18px;
+    border-radius: 525px;
+    font-size: 22px;
+    border:0;
+    
+}
+
+
+
+
+
+.footerr{
+    text-align: center;
+    background-color:#fc031c;
+    color: white;
+    margin: 0;
+    padding:5px;
+    
+    
+    
+}
+
+
+
+    @media screen and (max-width: 640px) {
+       .barr {
+            flex-direction: column;
+           
+        }
+        
+        .barr div{
+            margin-bottom: 20px;
+        }
+        
+        .banner{
+            position: static;
+        }
+        
+        
+        .marioclub{
+    
+   background-color: #f2ca2c;
+   height: 80px;
+    width:100%;
+   padding:20px 0px 20px 0px ;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 80px;
+    text-align: center;
+    
+    margin: 3px 0 0 0;
+           
+   
+}
+
+.sp{
+    font-size: 3rem;
+    display: inline;
+}
+        .special {
+    font-weight:normal;
+     font-size: 17px;
+        
+        }
+        
+        .speciall{
+            font-weight:bolder;
+    font-size: 20px;
+        }
+      
+}
